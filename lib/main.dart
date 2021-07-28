@@ -27,73 +27,87 @@ class _TapSoundsState extends State<TapSounds> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-a_A_major.wav"),
                 },
                 child: Text("A"),
-                color: Color(0xffFADBD8),
+                style: TextButton.styleFrom(
+                  primary: Color(0xffFADBD8),
+                ),
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-b_B_major.wav"),
                 },
                 child: Text("B"),
-                color: Color(0xffD7BDE2),
+                style: TextButton.styleFrom(
+                  primary: Color(0xffD7BDE2),
+                ),
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-c_C_major.wav"),
                 },
                 child: Text("C"),
-                color: Color(0xff5499C7),
+                style: TextButton.styleFrom(
+                  primary: Color(0xff5499C7),
+                ),
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-d_D_major.wav"),
                 },
                 child: Text("D"),
-                color: Color(0xff1ABC9C),
+                style: TextButton.styleFrom(
+                  primary: Color(0xff1ABC9C),
+                ),
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-e_E_major.wav"),
                 },
                 child: Text("E"),
-                color: Color(0xffF7DC6F),
+                style: TextButton.styleFrom(
+                  primary: Color(0xffF7DC6F),
+                ),
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-f_F_major.wav"),
                 },
                 child: Text("F"),
-                color: Color(0xff5D6D7E),
+                style: TextButton.styleFrom(
+                  primary: Color(0xff5D6D7E),
+                ),
               ),
             ),
             Expanded(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
                   player.play("piano-g_G_major.wav"),
                 },
                 child: Text("G"),
-                color: Color(0xff85929E),
+                style: TextButton.styleFrom(
+                  primary: Color(0xff85929E),
+                ),
               ),
             ),
           ],
