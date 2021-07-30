@@ -34,7 +34,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("A"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xffFADBD8),
+                  backgroundColor: Color(0xffFADBD8),
                 ),
               ),
             ),
@@ -46,7 +46,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("B"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xffD7BDE2),
+                  backgroundColor: Color(0xffD7BDE2),
                 ),
               ),
             ),
@@ -58,7 +58,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("C"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xff5499C7),
+                  backgroundColor: Color(0xff5499C7),
                 ),
               ),
             ),
@@ -70,7 +70,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("D"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xff1ABC9C),
+                  backgroundColor: Color(0xff1ABC9C),
                 ),
               ),
             ),
@@ -82,7 +82,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("E"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xffF7DC6F),
+                  backgroundColor: Color(0xffF7DC6F),
                 ),
               ),
             ),
@@ -94,7 +94,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("F"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xff5D6D7E),
+                  backgroundColor: Color(0xff5D6D7E),
                 ),
               ),
             ),
@@ -106,7 +106,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("G"),
                 style: TextButton.styleFrom(
-                  primary: Color(0xff85929E),
+                  backgroundColor: Color(0xff85929E),
                 ),
               ),
             ),
