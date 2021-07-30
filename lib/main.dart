@@ -30,7 +30,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-a_A_major.wav"),
+                  player.play("piano-a_A_major.mp4"),
                 },
                 child: Text("A"),
                 style: TextButton.styleFrom(
@@ -42,7 +42,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-b_B_major.wav"),
+                  player.play("piano-b_B_major.mp4"),
                 },
                 child: Text("B"),
                 style: TextButton.styleFrom(
@@ -54,7 +54,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-c_C_major.wav"),
+                  player.play("piano-c_C_major.mp4"),
                 },
                 child: Text("C"),
                 style: TextButton.styleFrom(
@@ -66,7 +66,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-d_D_major.wav"),
+                  player.play("piano-d_D_major.mp4"),
                 },
                 child: Text("D"),
                 style: TextButton.styleFrom(
@@ -78,7 +78,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-e_E_major.wav"),
+                  player.play("piano-e_E_major.mp4"),
                 },
                 child: Text("E"),
                 style: TextButton.styleFrom(
@@ -90,7 +90,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-f_F_major.wav"),
+                  player.play("piano-f_F_major.mp4"),
                 },
                 child: Text("F"),
                 style: TextButton.styleFrom(
@@ -102,7 +102,7 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-g_G_major.wav"),
+                  player.play("piano-g_G_major.mp4"),
                 },
                 child: Text("G"),
                 style: TextButton.styleFrom(
