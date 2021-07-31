@@ -2,6 +2,7 @@ import "package:flutter/material.dart";
 import "package:audioplayers/audioplayers.dart";
 import 'package:flutter/services.dart';
 
+
 void main() => runApp(TapSounds());
 
 class TapSounds extends StatefulWidget {
@@ -12,6 +13,7 @@ class TapSounds extends StatefulWidget {
 }
 
 class _TapSoundsState extends State<TapSounds> {
+
   AudioCache player = AudioCache();
 
   Widget build(BuildContext context) {
@@ -30,7 +32,8 @@ class _TapSoundsState extends State<TapSounds> {
               child: TextButton(
                 onPressed: () => {
                   HapticFeedback.heavyImpact(),
-                  player.play("piano-a_A_major.mp4"),
+                  player.play("piano-a_A_major.mp4")
+
                 },
                 child: Text("A"),
                 style: TextButton.styleFrom(
@@ -82,7 +85,7 @@ class _TapSoundsState extends State<TapSounds> {
                 },
                 child: Text("E"),
                 style: TextButton.styleFrom(
-                  backgroundColor: Color(0xffF7DC6F),
+                  backgroundColor: Color(0xfff7dc6f),
                 ),
               ),
             ),
